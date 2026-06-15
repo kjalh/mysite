@@ -20,12 +20,10 @@
 }
 
 
-/* 2. 타이틀 스타일 (HTML의 h2에 맞춰 수정) */
 h1 {
     text-align: center;
 }
 
-/* 3. 본문 스타일 */
 p {
     background-color: deepskyblue;
 }
