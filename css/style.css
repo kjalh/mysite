@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'GMarketSans';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+    font-weight: 300;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GMarketSans';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: 500;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GMarketSans';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+    font-weight: 700;
+    font-display: swap;
+}
+
+/* 1. 기본 초기화 및 여백 설정 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 배경색을 부드러운 연한 블루 그레이 톤으로 설정 */
+body { 
+    font-family: "GMarketSans", sans-serif;
+    line-height: 1.6;
+    background-color: #f0f4f8; 
+    color: #333333;
+    
+    /* 화면 정중앙에 정렬되도록 레이아웃 추가 */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* 2. 타이틀 스타일 (HTML의 h2에 맞춰 수정) */
+h2 {
+    font-weight: 700;          /* Bold 폰트 적용 */
+    font-size: 2.8rem;
+    color: #1a365d;            /* 깊고 신뢰감을 주는 네이비 색상 */
+    margin-bottom: 15px;
+    letter-spacing: -1px;      /* 자간 조절로 더 깔끔하게 */
+    text-align: center;
+}
+
+/* 3. 본문 스타일 */
+p {
+    font-weight: 300;          /* Light 폰트 적용 */
+    font-size: 1.2rem;
+    color: #4a5568;            /* 가독성 좋은 차분한 다크 그레이 색상 */
+    text-align: center;
+    background-color: #ffffff; /* 텍스트 뒤에 깔끔한 흰색 박스 효과 */
+    padding: 15px 40px;
+    border-radius: 50px;       /* 둥근 알약 모양 패딩 */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); /* 은은한 그림자 */
+}
